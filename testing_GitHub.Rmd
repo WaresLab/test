@@ -1,0 +1,21 @@
+---
+title: "testing github"
+author: "Paula Pappalardo"
+date: "Wednesday, April 01, 2015"
+output: pdf_document
+---
+
+# Test file
+
+Here we are trying to see if the differences between mac and windows can be overcome by github! So I'm trying to write latitude °S things, and maybe some Hudson's stats, or accents like in Perú. And test code from the rmarkdown example
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
