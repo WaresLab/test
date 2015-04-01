@@ -2,12 +2,14 @@
 title: "testing github"
 author: "Paula Pappalardo"
 date: "Wednesday, April 01, 2015"
-output: pdf_document
+output: html_document
 ---
 
 # Test file
 
-Here we are trying to see if the differences between mac and windows can be overcome by github! So I'm trying to write latitude °S things, and maybe some Hudson's stats, or accents like in Perú. And test code from the rmarkdown example
+Here we are trying to see if the differences between mac and windows can be overcome by github! So I'm trying to write latitude ?S things, and maybe some Hudson's stats, or accents like in Per?. And test code from the rmarkdown example
+
+For what it is worth, I see question mark where degree sign would be, and question mark at the end of 'Per' as well. Perhaps we need to use explicit markdown language for these instead of keyboard entry, for example latitude 42&deg;S is supposed to work for HTML and PDF output. And then greek symbols $\pi$ we use LaTex markdown. I've tested and this works for ME on Word, PDF, HTML - how about you?
 
 ```{r}
 summary(cars)
